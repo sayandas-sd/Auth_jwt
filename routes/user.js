@@ -1,6 +1,8 @@
 const { Router } = require("express");
 const userMiddleware = require("../middleware/user");
 const {User, Course} = require("../db");
+const jwt = require("jsonwebtoken");
+const {JWT_SECRET} = require("../config");
 const router = Router();
 
 router.post("/signup", (req,res)=> {

@@ -1,6 +1,6 @@
 //mongodb+srv://new_user:HxuABJt6tZEF5ThT@cluster0.ufwegv2.mongodb.net/
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://new_user:HxuABJt6tZEF5ThT@cluster0.ufwegv2.mongodb.net/course_selling_app");
+mongoose.connect("mongodb+srv://new_user:HxuABJt6tZEF5ThT@cluster0.ufwegv2.mongodb.net/course_selling_app2");
 
 const AdminSchema = new mongoose.Schema({
     username: String,
