@@ -11,5 +11,5 @@ app.use("/user", userRouter);
 const PORT = 3000;
 
 app.listen(PORT, () => {
-    console.log(`server s running on port ${PORT}`);
+    console.log(`sayan server is running on port ${PORT}`);
 });
