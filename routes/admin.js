@@ -2,7 +2,7 @@ const { Router } = require("express");
 const adminMiddleware = require("../middleware/admin");
 const {Admin, Course} = require("../db");
 const jwt = require("jsonwebtoken");
-const {JWT_SECRET} = require("../config");
+const {JWT_SECRET} = require("../json_token");
 const router = Router();
 
 router.post("/signup", async (req,res)=> {
